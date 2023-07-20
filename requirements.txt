@@ -1,0 +1,14 @@
+biosppy==0.8.0
+matplotlib==3.3.4
+mkl==2022.1.0
+numpy==1.19.5
+pandas==1.1.5
+pyts==0.12.0
+scikit_learn==0.24.2
+scipy==1.5.4
+tensorboardX==2.5.1
+thop==0.1.1.post2207130030
+torch==1.5.0
+torchvision==0.6.0
+tqdm==4.64.0
+wfdb==3.4.1

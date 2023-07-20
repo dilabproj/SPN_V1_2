@@ -1,0 +1,72 @@
+,description,diagnostic,form,rhythm,diagnostic_class,diagnostic_subclass,Statement Category,SCP-ECG Statement Description,AHA code,aECG REFID,CDISC Code,DICOM Code
+NDT,non-diagnostic T abnormalities,1.0,1.0,,STTC,STTC,other ST-T descriptive statements,non-diagnostic T abnormalities,,,,
+NST_,non-specific ST changes,1.0,1.0,,STTC,NST_,Basic roots for coding ST-T changes and abnormalities,non-specific ST changes,145,MDC_ECG_RHY_STHILOST,,
+DIG,digitalis-effect,1.0,1.0,,STTC,STTC,other ST-T descriptive statements,suggests digitalis-effect,205,,,
+LNGQT,long QT-interval,1.0,1.0,,STTC,STTC,other ST-T descriptive statements,long QT-interval,148,,,
+NORM,normal ECG,1.0,,,NORM,NORM,Normal/abnormal,normal ECG,1,,,F-000B7
+IMI,inferior myocardial infarction,1.0,,,MI,IMI,Myocardial Infarction,inferior myocardial infarction,161,,,
+ASMI,anteroseptal myocardial infarction,1.0,,,MI,AMI,Myocardial Infarction,anteroseptal myocardial infarction,165,,,
+LVH,left ventricular hypertrophy,1.0,,,HYP,LVH,Ventricular Hypertrophy,left ventricular hypertrophy,142,,C71076,
+LAFB,left anterior fascicular block,1.0,,,CD,LAFB/LPFB,Intraventricular and intra-atrial Conduction disturbances,left anterior fascicular block,101,MDC_ECG_BEAT_BLK_ANT_L_HEMI,C62267,D3-33140
+ISC_,non-specific ischemic,1.0,,,STTC,ISC_,Basic roots for coding ST-T changes and abnormalities,ischemic ST-T changes,226,,,
+IRBBB,incomplete right bundle branch block,1.0,,,CD,IRBBB,Intraventricular and intra-atrial Conduction disturbances,incomplete right bundle branch block,105,MDC_ECG_BEAT_RBB_BLK_INCOMP,C71048,D3-33112
+1AVB,first degree AV block,1.0,,,CD,_AVB,"Sinus node dysfunction, atrial and AV-conduction defects",first degree AV block,,MDC_ECG_RHY_AV_HEART_BLK_DEG_1,C111088,
+IVCD,non-specific intraventricular conduction disturbance (block),1.0,,,CD,IVCD,Intraventricular and intra-atrial Conduction disturbances,non-specific intraventricular conduction disturbance,107,MDC_ECG_BEAT_BLK_IVCD,C62271,D3-33000
+ISCAL,ischemic in anterolateral leads,1.0,,,STTC,ISCA,ischemic ST-T changes,in anterolateral leads,,,,
+CRBBB,complete right bundle branch block,1.0,,,CD,CRBBB,Intraventricular and intra-atrial Conduction disturbances,(complete) right bundle branch block,106,MDC_ECG_BEAT_RBB_BLK_COMP,C62270,D3-33110
+CLBBB,complete left bundle branch block,1.0,,,CD,CLBBB,Intraventricular and intra-atrial Conduction disturbances,(complete) left bundle branch block,104,MDC_ECG_BEAT_LBB_BLK_COMP,C62269,D3-33120 or 122752
+ILMI,inferolateral myocardial infarction,1.0,,,MI,IMI,Myocardial Infarction,inferolateral myocardial infarction,,,,
+LAO/LAE,left atrial overload/enlargement,1.0,,,HYP,LAO/LAE,Atrial statements,left atrial overload/enlargement,140,,,
+AMI,anterior myocardial infarction,1.0,,,MI,AMI,Myocardial Infarction,anterior myocardial infarction,160,,,
+ALMI,anterolateral myocardial infarction,1.0,,,MI,AMI,Myocardial Infarction,anterolateral myocardial infarction,,,,
+ISCIN,ischemic in inferior leads,1.0,,,STTC,ISCI,ischemic ST-T changes,in inferior leads,,,,
+INJAS,subendocardial injury in anteroseptal leads,1.0,,,MI,AMI,ischemic ST-T changes compatible with subendocardial injury,in anteroseptal leads,,,,
+LMI,lateral myocardial infarction,1.0,,,MI,LMI,Myocardial Infarction,lateral myocardial infarction,163,,,
+ISCIL,ischemic in inferolateral leads,1.0,,,STTC,ISCI,ischemic ST-T changes,in inferolateral leads,,,,
+LPFB,left posterior fascicular block,1.0,,,CD,LAFB/LPFB,Intraventricular and intra-atrial Conduction disturbances,left posterior fascicular block,102,MDC_ECG_BEAT_BLK_POS_L_HEMI,C62268,D3-33150
+ISCAS,ischemic in anteroseptal leads,1.0,,,STTC,ISCA,ischemic ST-T changes,in anteroseptal leads,,,,
+INJAL,subendocardial injury in anterolateral leads,1.0,,,MI,AMI,ischemic ST-T changes compatible with subendocardial injury,in anterolateral leads,,,,
+ISCLA,ischemic in lateral leads,1.0,,,STTC,ISCA,ischemic ST-T changes,in lateral leads,,,,
+RVH,right ventricular hypertrophy,1.0,,,HYP,RVH,Ventricular Hypertrophy,right ventricular hypertrophy,143,,C71077,
+ANEUR,ST-T changes compatible with ventricular aneurysm,1.0,,,STTC,STTC,other ST-T descriptive statements,ST-T changes compatible with ventricular aneurysm,227,,,
+RAO/RAE,right atrial overload/enlargement,1.0,,,HYP,RAO/RAE,Atrial statements,right atrial overload/enlargement,141,,,
+EL,electrolytic disturbance or drug (former EDIS),1.0,,,STTC,STTC,physiopathological nature of ST-T changes,compatible with electrolyte abnormalities,,,,
+WPW,Wolf-Parkinson-White syndrome,1.0,,,CD,WPW,Intraventricular and intra-atrial Conduction disturbances,Wolff-Parkinson-White syndrome,,MDC_ECG_RHY_WPW_UNK,C35132,
+ILBBB,incomplete left bundle branch block,1.0,,,CD,ILBBB,Intraventricular and intra-atrial Conduction disturbances,incomplete left bundle branch block,,MDC_ECG_BEAT_LBB_BLK_INCOMP,C71047,
+IPLMI,inferoposterolateral myocardial infarction,1.0,,,MI,IMI,Myocardial Infarction,inferoposterolateral myocardial infarction,,,,
+ISCAN,ischemic in anterior leads,1.0,,,STTC,ISCA,ischemic ST-T changes,in anterior leads,,,,
+IPMI,inferoposterior myocardial infarction,1.0,,,MI,IMI,Myocardial Infarction,inferoposterior myocardial infarction,,,,
+SEHYP,septal hypertrophy,1.0,,,HYP,SEHYP,Ventricular Hypertrophy,septal hypertrophy,,,,
+INJIN,subendocardial injury in inferior leads,1.0,,,MI,IMI,ischemic ST-T changes compatible with subendocardial injury,in inferior leads,,,,
+INJLA,subendocardial injury in lateral leads,1.0,,,MI,AMI,ischemic ST-T changes compatible with subendocardial injury,in lateral leads,,,,
+PMI,posterior myocardial infarction,1.0,,,MI,PMI,Myocardial Infarction,posterior myocardial infarction,162,,,
+3AVB,third degree AV block,1.0,,,CD,_AVB,"Sinus node dysfunction, atrial and AV-conduction defects",third degree AV block,88,MDC_ECG_RHY_AV_HEART_BLK_DEG_3,C111091,D3-32102
+INJIL,subendocardial injury in inferolateral leads,1.0,,,MI,IMI,ischemic ST-T changes compatible with subendocardial injury,in inferolateral leads,,,,
+2AVB,second degree AV block,1.0,,,CD,_AVB,"Sinus node dysfunction, atrial and AV-conduction defects",second degree AV block,,MDC_ECG_RHY_AV_HEART_BLK_DEG_2,C62016,R-F81AE
+ABQRS,abnormal QRS,,1.0,,,,Normal/abnormal,abnormal QRS,,,,
+PVC,ventricular premature complex,,1.0,,,,Statements related to ectopic rhythm abnormalities,ventricular premature complex (beat),60,MDC_ECG_BEAT_V_P_C,,
+STD_,non-specific ST depression,,1.0,,,,Basic roots for coding ST-T changes and abnormalities,non-specific ST depression,502,,,F-38278
+VCLVH,voltage criteria (QRS) for left ventricular hypertrophy,,1.0,,,,Ventricular Hypertrophy,voltage criteria (QRS) for left ventricular hypertrophy,,,,
+QWAVE,Q waves present,,1.0,,,,Other QRS morphology descriptive statements,Q waves present,,,,
+LOWT,low amplitude T-waves,,1.0,,,,other ST-T descriptive statements,low amplitude T-waves,366,,,
+NT_,non-specific T-wave changes,,1.0,,,,Basic roots for coding ST-T changes and abnormalities,non-specific T-wave changes,,,,
+PAC,atrial premature complex,,1.0,,,,Statements related to ectopic rhythm abnormalities,atrial premature complex (beat),30,MDC_ECG_BEAT_ATR_P_C,,
+LPR,prolonged PR interval,,1.0,,,,Statements related to impulse formation (abnormalities),Prolonged PR interval,82,,,
+INVT,inverted T-waves,,1.0,,,,other ST-T descriptive statements,inverted T-waves,367,,,
+LVOLT,low QRS voltages in the frontal and horizontal leads,,1.0,,,,Other QRS morphology descriptive statements,low QRS voltages in the frontal and horizontal leads,,,,
+HVOLT,high QRS voltage,,1.0,,,,Other QRS morphology descriptive statements,high QRS voltage,,,,
+TAB_,T-wave abnormality,,1.0,,,,Basic roots for coding ST-T changes and abnormalities,T-wave abnormality,147,,,
+STE_,non-specific ST elevation,,1.0,,,,Basic roots for coding ST-T changes and abnormalities,non-specific ST elevation,501,MDC_ECG_RHY_STELVATION,,F-38277
+PRC(S),premature complex(es),,1.0,,,,Statements related to ectopic rhythm abnormalities,premature complex(es),,,,
+SR,sinus rhythm,,,1.0,,,Statements related to impulse formation (abnormalities),sinus rhythm,20,MDC_ECG_RHY_SINUS_RHY,,
+AFIB,atrial fibrillation,,,1.0,,,Statements related to impulse formation (abnormalities),atrial fibrillation,50,MDC_ECG_RHY_ATR_FIB,,D3-31520
+STACH,sinus tachycardia,,,1.0,,,Statements related to impulse formation (abnormalities),sinus tachycardia,21,MDC_ECG_RHY_SINUS_TACHY,,
+SARRH,sinus arrhythmia,,,1.0,,,Statements related to impulse formation (abnormalities),sinus arrhythmia,23,MDC_ECG_RHY_SINUS_ARRHY,,
+SBRAD,sinus bradycardia,,,1.0,,,Statements related to impulse formation (abnormalities),sinus bradycardia,22,MDC_ECG_RHY_SINUS_BRADY,,
+PACE,normal functioning artificial pacemaker,,,1.0,,,Pacemaker types and pacemaker function,normal functioning artificial pacemaker,,,,
+SVARR,supraventricular arrhythmia,,,1.0,,,Statements related to impulse formation (abnormalities),supraventricular arrhythmia,,,,
+BIGU,"bigeminal pattern (unknown origin, SV or Ventricular)",,,1.0,,,Statements related to ectopic rhythm abnormalities,"bigeminal pattern (unknown origin, SV or Ventricular)",,,,
+AFLT,atrial flutter,,,1.0,,,Statements related to impulse formation (abnormalities),atrial flutter,51,MDC_ECG_RHY_ATR_FLUT,,
+SVTAC,supraventricular tachycardia,,,1.0,,,Statements related to impulse formation (abnormalities),supraventricular tachycardia,55,MDC_ECG_RHY_SV_TACHY,,D3-31290
+PSVT,paroxysmal supraventricular tachycardia,,,1.0,,,Statements related to impulse formation (abnormalities),paroxysmal supraventricular tachycardia,,MDC_ECG_RHY_SV_TACHY_PAROX,,
+TRIGU,"trigeminal pattern (unknown origin, SV or Ventricular)",,,1.0,,,Statements related to ectopic rhythm abnormalities,"trigeminal pattern (unknown origin, SV or Ventricular)",,,,

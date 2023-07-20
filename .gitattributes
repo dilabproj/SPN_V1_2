@@ -1,0 +1,4 @@
+file filter=lfs diff=lfs merge=lfs -text
+Production.zip filter=lfs diff=lfs merge=lfs -text
+Production/state/CNNLSTM/ICBEB/1/state.pkl filter=lfs diff=lfs merge=lfs -text
+Production/state/CNNLSTM-500/PTBXL/1/state.pkl filter=lfs diff=lfs merge=lfs -text
