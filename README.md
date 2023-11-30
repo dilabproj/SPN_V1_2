@@ -1,23 +1,24 @@
-## 說明文件
+## Documentation
 
-### 本說明文件是關於SPN及SPN_V2(KGNA)兩個模型對於ICBEB(CPSC2018)和PTBXL兩個dataset的使用說明，兩個模型主要是對於ECG data中Arrhythmia的及早分類，關於程式執行步驟如下
+### This documentation is about the use of two models, SPN and SPN_V2 (KGNA), for the ICBEB (CPSC2018) and PTBXL datasets. These models are primarily for the early classification of Arrhythmia in ECG data. The steps to execute the program are as follows:
 
-1. `chmod +x get_data.sh` (賦予該執行檔執行權限)
-2. `./get_data.sh` (產生ECG-data中的ICBEB/PTBXL兩個dataset, 並解壓縮模型)
+1. `chmod +x get_data.sh` (Grant execute permission to the script)
+2. `./get_data.sh` (Generate ICBEB/PTBXL datasets in ECG-data and decompress the model)
 
-### 模型樹狀圖如下
+### The structure is as follows:
+
 ```
-Production  - - - - - -模型目錄
+Production  - - - - - -Model Directory
   │
-  ├─CNNLSTM  - - - - - -SPN-V2 backbone模型
+  ├─CNNLSTM  - - - - - -SPN-V2 backbone model
   │  │─ICBEB ─ 1 ─ pretrained.pt
   │  └─PTBXL ─ 1 ─ pretrained.pt
   │
-  ├─models  －－－－－－最終模型
-  │  |─KGEVO  - - - - - -SPN-V2 最終模型
+  ├─models  －－－－－－Final Models
+  │  |─KGEVO  - - - - - -SPN-V2 Final Model
   |  |  |─ICBEB ─ 1 ─ model.pkl
   |  |  └─PTBXL ─ 1 ─ model.pkl
-  |  └─SPN_V1  - - - - - -SPN 最終模型
+  |  └─SPN_V1  - - - - - -SPN Final Model
   |     |─ICBEB ─ 1 ─ model.pt
   |     └─PTBXL ─ 1 ─ model.pt
   │
@@ -26,17 +27,17 @@ Production  - - - - - -模型目錄
   |  └─CNNLSTM-500 ─ PTBXL ─ 1 ─ state.pkl
   │  
   │
-  └─weights  －－－－－－SPN-V2 模型末端參數
+  └─weights  －－－－－－SPN-V2 End Parameters
   │  │─ICBEB ─ 1 ─ weight.pkl
   |  └─PTBXL ─ 1 ─ weight.pkl
 ```
 
-3. `pip3 install -r requirements.txt` (安裝環境套件)
+3. `pip3 install -r requirements.txt` (Install environment packages)
 4. `cd Code-final` 
-5. `python3 SPN_Online_Infernece.py ICBEB` (SPN執行第一個dataset)
-6. `python3 SPN_Online_Infernece.py PTBXL` (SPN執行第二個dataset)
-7. `python3 SPN_V2_Online_Infernece.py ICBEB` (SPN_V2執行第一個dataset)
-8. `python3 SPN_V2_Online_Infernece.py PTBXL` (SPN_V2執行第二個dataset)
+5. `python3 SPN_Online_Infernece.py ICBEB` (Run SPN with the first dataset)
+6. `python3 SPN_Online_Infernece.py PTBXL` (Run SPN with the second dataset)
+7. `python3 SPN_V2_Online_Infernece.py ICBEB` (Run SPN_V2 with the first dataset))
+8. `python3 SPN_V2_Online_Infernece.py PTBXL` (Run SPN_V2 with the second dataset)
 
 
 ## Acknowledgement
